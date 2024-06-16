@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Arima&family=Finlandica:ital,wght@0,400;1,400;1,500&family=Lato&family=Playfair+Display:wght@600&family=Poppins:wght@300&family=Source+Sans+Pro&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Arima', cursive;
+    font-family: 'Finlandica', sans-serif;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+body{
+    background-image: linear-gradient(to right, rgb(19, 130, 178) , rgb(125, 205, 239));
+
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: none;
+    color: rgb(171, 30, 30);
+}
+
+.Navbar {
+  background-image: linear-gradient(to right, rgb(153, 249, 246),rgb(220, 250, 252),rgb(153, 249, 246)) ;
+  width:100%;
+  margin: auto;
+  position: sticky;
+  z-index: 10;
+  padding: 5px;
+  height: 70px;
+  top: 0px;
+}
+
+.Navbar ul{
+  list-style: none;
+}
+
+.nav{
+  display: inline-flex;
+}
+
+.Logo a img {
+  width: 30%;
+  position: relative;
+  left: 180px;
+}
+
+.Menu {
+  max-width: 100%;
+  display: inline-flex;
+  position: relative;
+  top: 22%;
+  left: 180%;
+}
+
+.Menu a{
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  font-size: 18px;
+  font-weight: 500;
+  padding: 5px 10px;
+  border-radius: 12px;
+  transition: 0.8s ease;
+  margin-right: 15px;
+  justify-content: space-between;
+}
+
+.Menu a:hover{
+  background: rgb(81, 157, 157);
+  color: rgb(255, 255, 255);
+}

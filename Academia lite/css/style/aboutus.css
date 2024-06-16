@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css2?family=Arima&family=Finlandica:ital,wght@0,400;1,400;1,500&family=Lato&family=Playfair+Display:wght@600&family=Poppins:wght@300&family=Source+Sans+Pro&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Arima', cursive;
+    font-family: 'Finlandica', sans-serif;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+body {
+    background-image: linear-gradient(to right, rgb(19, 130, 178), rgb(125, 205, 239));
+}
+
+.about-1 h1 {
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    line-height: 50px;
+    font-size: 40px;
+    padding-top: 40px;
+
+
+}
+
+.about-1 p {
+    text-align: justify;
+    padding: 5px;
+    color: rgb(13, 13, 13);
+    font-size: 16px;
+    margin-left: 80px;
+    margin-right: 80px;
+    box-shadow: 0 0 1px rgba(red, green, blue, alpha);
+
+}
+
+#ABOUT {
+    background-color: #fff;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.about-item {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border-radius: 4px;
+    background-color: rgb(217, 217, 217);
+    padding: 80px 20px;
+    box-shadow: 0 0 3px rgba(0, 0, 0.6);
+    height: 450px;
+
+}
+
+/*======================================
+adding style to the icons(book,globe,pencil)
+=========================================*/
+.about-item i {
+    font-size: 45px;
+    margin: 0;
+}
+
+/*======================================
+adding style to h3(heading 3) of each item 
+=========================================*/
+.about-item h3 {
+    font-size: 25px;
+    margin-bottom: 10px;
+    font: bold;
+}
+
+/*======================================
+styling the hr (the blue line in between)
+=========================================*/
+
+
+.about-item hr {
+    width: 56px;
+    height: 3px;
+    border-radius: 3px;
+    background-color: #d2de29;
+    margin: 0 auto;
+    border: none;
+    text-align: center;
+}
+
+.about-item p {
+    text-align: justify;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+.about-item:hover {
+    background-color: #949694;
+    box-shadow: 0 0 9px rgba(0, 0, 0.6);
+}
+
+.about-item:hover i {
+    color: black;
+}
+
+.about-item:hover h3,
+.about-item:hover p {
+    color: #fff;
+}
+
+.about-item:hover hr {
+    background-color: rgb(184, 46, 60);
+}
+
+.about-item:hover i {
+    transform: translateY(-20px);
+}
+
+.about-item:hover i,
+.about-item:hover h3,
+.about-item:hover hr {
+    transition: all 400ms ease-in-out;
+}
+
+/*======================================
+The starting of Our team 
+=========================================*/
+
+
+.our-team-1 {
+    background-color: floralwhite;
+    gap: 1rem;
+}
+
+.container {
+    text-align: center;
+    background: rgba(202, 22, 22, 0);
+}
+
+.header h1 {
+    padding-top: 30px;
+    margin: auto;
+    line-height: 50px;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    font-size: 40px;
+    text-transform: uppercase;
+
+}
+
+.sub-container {
+    max-width: 1900px;
+    margin: auto;
+    padding: 30px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.teams {
+    margin: 10px;
+    padding: 15px;
+    padding-top: 25px;
+    max-height: 30%;
+    cursor: pointer;
+    transition: 0.4s;
+    box-sizing: border-box;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0.6);
+}
+
+.teams:hover {
+    background: #73afd4;
+    transform: scale(1.1);
+
+
+}
+
+.teams img {
+    height: 200px;
+    width: 175px;
+    border-radius: 50%;
+}
+
+/* .teams:hover img {
+    transform: translateY(-20px); 
+}*/
+.name {
+    padding: 12px;
+    font-weight: bold;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.role {
+    font-size: 16px;
+    color: #888;
+    font-style: italic;
+}
+
+.about {
+    margin: 20px 0;
+    font-weight: lighter;
+    color: #4e4e4e;
+}
+
+.social-links a {
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    transition: .4s;
+}
+
+.social-links i {
+    color: #c59b48;
+
+}
+
+@media screen and (max-width: 600px) {
+    .teams {
+        max-width: 100%
+    }
+}
+
+.Navbar {
+    background-image: linear-gradient(to right, rgb(153, 249, 246), rgb(220, 250, 252), rgb(153, 249, 246));
+    width: 100%;
+    margin: auto;
+    position: sticky;
+    z-index: 10;
+    padding: 5px;
+    height: 70px;
+    top: 0px;
+}
+
+.Navbar ul {
+    list-style: none;
+}
+
+.nav {
+    display: inline-flex;
+}
+
+.Logo a img {
+    width: 30%;
+    position: relative;
+    left: 180px;
+}
+
+.Menu {
+    max-width: 100%;
+    display: inline-flex;
+    position: relative;
+    top: 22%;
+    left: 180%;
+}
+
+.Menu a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    font-weight: 500;
+    padding: 5px 10px;
+    border-radius: 12px;
+    transition: 0.8s ease;
+    margin-right: 15px;
+    justify-content: space-between;
+}
+
+.Menu a:hover {
+    background: rgb(81, 157, 157);
+    color: rgb(255, 255, 255);
+}
